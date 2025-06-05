@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise School</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <div class="header-container">
+            <img src="new.png">
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <br>  <br>  <br> 
+            <div class="container">
+                <h2>Welcome to waberi School</h2>
+                <div class="image-row">
+                    <img src="dhismaha.jpg" alt="Sunrise School Building" loading="lazy">
+                    <img src="ardayda.jpg" alt="School Playground Area" loading="lazy">
+                </div>
+                <div class="content">
+                    <p>Sunrise School is a place where students grow into future leaders. We emphasize holistic development through academics, sports, and moral values.</p>
+                    <p>Our vision is to create a nurturing environment where every learner can achieve academic excellence, develop life skills, and become a responsible citizen.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+              <br>  <br>  <br> 
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="image-row">
+                    <img style="height:340px;" src="fasal.jpg" alt="Our Modern Classroom" loading="lazy">
+                    <img src="maktabada.jpg" alt="School Library Facilities" loading="lazy">
+                </div>
+                <div class="content">
+                    <p>Founded in 2007, Sunrise School has been a pillar of quality education in the region. Our curriculum balances theory and practice.</p>
+                    <p>We believe in continuous growth—for both students and teachers. Regular training keeps our staff up-to-date with the latest educational trends.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="section">
+              <br>  <br>  <br> 
+            <div class="container">
+                <h2>Admissions</h2>
+                <div class="image-row">
+                    <img style="height: 420px;" src="mamul.jpg" alt="Admissions Office" loading="lazy">
+                    <img src="ciyaalka.jpg" alt="Student Activities" loading="lazy">
+                </div>
+                <div class="content">
+                    <p>We welcome students from diverse backgrounds. Our admission process is simple, inclusive, and based on merit.</p>
+                    <ul>
+                        <li>Collect application form online or from admin office</li>
+                        <li>Submit required documents</li>
+                        <li>Entrance assessment (for Grades 2+)</li>
+                        <li>Parent-student interview</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+              <br>  <br>  <br> 
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="image-row">
+                    <img style="height:320px;" src="images.jpg" alt="School Reception" loading="lazy">
+                    <img src="dhismaha.jpg" alt="School Location Map" loading="lazy">
+                </div>
+                <div class="content contact-info">
+                    <p><i class="fas fa-envelope"></i> info@sunriseschool.edu</p>
+                    <p><i class="fas fa-phone"></i> +252 610100103</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sixth Section, Baledhawo, Somalia</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sunrise School. All rights reserved.</p>
+            <p class="credits">Quality Education for a Brighter Future</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
